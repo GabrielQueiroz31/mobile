@@ -2,12 +2,12 @@
 
 ## 📌 Conteúdo da Aula
 
-No dia **27 de janeiro de 2026**, realizamos as seguintes atividades:
+No dia 27 de janeiro de 2026, realizamos as seguintes atividades:
 
 ## 🔧 Instalações
-- Instalação e configuração do **Git**
-- Conexão do Git com o **GitHub**
-- Instalação do **Visual Studio Code (VS Code)**
+- Instalação e configuração do Git
+- Conexão do Git com o GitHub
+- Instalação do Visual Studio Code (VS Code)
 - Integração do VS Code com o GitHub
 
 ## 📁 Organização do Projeto
