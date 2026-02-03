@@ -13,7 +13,6 @@ No dia 27 de janeiro de 2026, realizamos as seguintes atividades:
 ## 📁 Organização do Projeto
 Foi criada a estrutura inicial do projeto com a seguinte organização:
 
-```text
 GabrielGomes/
 ├── Backend/
 ├── Frontend/
