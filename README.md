@@ -49,3 +49,48 @@ GabrielGomes/
         - IDE: VScode, Android Studio
         - Linguagens: Dart
         - Ambientes: Mac, Win, Linux
+
+# 10/02/26
+
+## Preparação do Ambiente de Desenvolvimento
+
+### Instalação do FlutterSDK
+- download do arquivo zip na página flutter.dev
+- inclusão do flutter na pasta C:\src
+- inclusão do flutter\bin nas variaveis de ambiente
+- teste o flutter --version
+
+### Instalação do AndroidSDK
+- download do Android SDK - Command Line Tools
+- adicionar o Command-Line ao c:\src\AndroidSDK
+- adicionar o SDKManager as Variáveis de Ambiente
+- download dos pacotes
+    - emulador
+    - platforms
+    - platform-tools
+    - build-tools
+
+- adicionar ADB e o Emulator as Variáveis de Ambiente
+
+- Criação da Imagem dop Emulator - via sdkmanager
+- Build do Emulator - via sdkmanager
+
+### Criação de Projetos e Códigos da Linha de Comando
+
+-Criação de projetos
+    - flutter create nome_do_app
+        -flags:
+            - --empty: Cria um alicativo "vazio"(hello world)
+            - --platforms: permite a seleção de uma plataforma de desenvolvimento 
+                - ex: --platforms=android (a criação do projeto será somente para plataforma android)
+    - exemplo de criação de um aplicativo android vazio
+        - flutter creaate nome_do_app --empty --platforms=android
+        - obs: nome do aplicativo: todas as letras minúsculas, separação de palavras com "_";
+    - flutter doctor
+        - permite correção de pequenos problemas no flutter e identificação dos parametros funcionais em relação as plataformas de desenvolvimento
+        - sempre rodar o flutter doctor no começo do desenvolvimento 
+    - flutter clean
+        - limpa o cache do build(apaga o apk anterior)
+    - flutter run -v
+        - build do app (apk)
+
