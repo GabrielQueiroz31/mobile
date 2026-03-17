@@ -94,3 +94,11 @@ GabrielGomes/
     - flutter run -v
         - build do app (apk)
 
+- gerenciamento de dependeências do PubSpec()
+    - intalação
+        - flutter pub add nome_dependencias
+    - baixar e instalar dependencias projetadas 
+        - flutter pub get
+    - outros comandos do flutter pu(dependencias)
+        - flutter pub outdated (verifica se as dependencias estão desatualizadas)
+        - flutter pub upgrade (atualiza as dependencias do flutter pub)
