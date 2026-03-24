@@ -122,7 +122,7 @@ GabrielGomes/
             FAButton["FAButton"]
             SnackBar["SnackBar"]
         end
-        MaterialApp -> Janelas
-        Janelas -> Scaffold 
+        MaterialApp --> Janelas
+        Janelas --> Scaffold 
 
     ```
