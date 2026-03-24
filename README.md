@@ -106,7 +106,8 @@ GabrielGomes/
 ### Estrutura Básica de um Aplicativo em Flutter
 
 #### Árvore de Widgets
-    ```mermaid
+```mermaid
+
     flowchart TD
         subgraph MaterialApp["MaterialApp"]
         end
@@ -123,6 +124,6 @@ GabrielGomes/
             SnackBar["SnackBar"]
         end
         MaterialApp --> Janelas
-        Janelas --> Scaffold 
+        Janelas --> Scaffold         
 
-    ```
+```
