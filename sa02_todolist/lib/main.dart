@@ -89,9 +89,11 @@ class _ToDoListState extends State<ToDoList> {
     }
   }
 
-  void _deletarTarefa(int index){
-    setState(() {
-      _tarefas.removeAt(index);
-    });
+  void _deletarTarefa(int index) {
+    if(_tarefas[index]["concluida"]){
+      setState(() {
+        _tarefas.removeAt(index);
+      });
+    }
   }
 }
